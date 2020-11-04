@@ -1,0 +1,74 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(5, fr);
+}
+header{
+    background-color: maroon;
+    grid-column: 1/6;
+    text-align: center;
+}
+
+main{
+    background-color:lightgrey;
+    grid-column: 2/5;
+}
+nav{
+    grid-row:2/3;
+    grid-column: 1;
+     background-color: grey;
+}
+footer{
+    background-color: beige;
+    grid-column: 1/6;
+    text-align: center;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+li{
+    padding:5px; 
+}
+
+#newnote{
+    background-color: #5D987C;
+    margin-top: 25px;
+    margin-left: 225px;
+    color: white;
+    font-size: 1em;
+    float: left;
+}
+
+#mode{
+    color: white;
+    background-color: #656565;
+    margin-top: 25px;
+    margin-right: 25px;
+    font-size: 1em;
+    float: right;
+}
+
+#save{
+    background-color: #5D987C;
+    margin-top: 25px;
+    margin-left: 225px;
+    color: white;
+    font-size: 1em;
+}
+
+#Cancel{
+    background-color: red;
+    margin-top: 25px;
+    margin-left: 225px;
+    color: white;
+    font-size: 1em;
+    float: right;
+}
+
+#myTextBox{
+    float: center;
+    
+}
+
