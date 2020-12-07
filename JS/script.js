@@ -15,7 +15,7 @@ function changemode(){
         document.body.style.backgroundColor = '#ECE8E8'
         mode_btn.style.color = 'white'
         mode_btn.style.backgroundColor= '#656565'
-        document.querySelector('nav').style.backgroundColor='#C4C4C4'
+        document.querySelector('nav').style.backgroundColor='grey'
         document.querySelector('section').style.backgroundColor='#C4C4C4'
     }
 }
@@ -46,16 +46,24 @@ function removeelement(){
   }
 }
 
-
-arr = [
+const notesArray = [
 
     {title: "note one", body: "note 1"},
 
-    {title: "Notes two", body: "hello sir"}, ];
+    {title: "note two", body: "hello sir"}, ];
 
 let save_btn = document.getElementById('save')
-save_btn.addEventListener('click',)
+save_btn.addEventListener('click',savenote)
 
 function savenote(){
-
+    var note = {
+        title: "new note",
+        body: document.getElementById('myTextBox').value
+    }
+        var text = document.createTextNode(`${note}`);
+        text.appendChild(text);
+        var element = document.getElementById("nav");
+        element.appendChild(tag);
 }
+
+// Not sure how to append the userinput from the textbox into the "My Notes" section.
