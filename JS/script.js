@@ -1,3 +1,5 @@
+//Nicholas Lai - ACIT 1620 - script.js
+
 let mode_btn = document.getElementById('mode')
 mode_btn.addEventListener('click',changemode)
 
