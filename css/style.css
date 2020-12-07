@@ -1,24 +1,34 @@
 body{
     display: grid;
-    grid-template-columns: repeat(5, fr);
+    grid-template-columns: repeat(3, fr);
 }
 header{
-    background-color: maroon;
+    background-color: burlywood;
     grid-column: 1/6;
     text-align: center;
 }
 
-main{
-    background-color:lightgrey;
-    grid-column: 2/5;
-}
 nav{
     grid-row:2/3;
     grid-column: 1;
      background-color: grey;
 }
+
+hr{
+    border-color: black;
+}
+#box{
+    margin-left: 225px;
+    margin-top: 50px;
+}
+
+#boxarea{
+    margin-left: 225px;
+    margin-top: 50px;
+}
+
 footer{
-    background-color: beige;
+    background-color: rosybrown;
     grid-column: 1/6;
     text-align: center;
 
@@ -32,43 +42,35 @@ li{
     padding:5px; 
 }
 
+#outershell{
+    background-color: lightgray;
+}
 #newnote{
     background-color: #5D987C;
     margin-top: 25px;
     margin-left: 225px;
     color: white;
-    font-size: 1em;
-    float: left;
+    font-size: 1.3em;
 }
-
 #mode{
     color: white;
     background-color: #656565;
     margin-top: 25px;
     margin-right: 25px;
-    font-size: 1em;
+    font-size: 1.3em;
     float: right;
 }
-
 #save{
+    margin-left: 225px;
     background-color: #5D987C;
-    margin-top: 25px;
-    margin-left: 225px;
+    margin-top: 75px;
     color: white;
-    font-size: 1em;
+    font-size: 1.2em;
 }
-
 #Cancel{
-    background-color: red;
-    margin-top: 25px;
-    margin-left: 225px;
+    margin-left: 250px;
+    margin-top: 75px;
+    background-color: #ff6666;
     color: white;
-    font-size: 1em;
-    float: right;
+    font-size: 1.2em;
 }
-
-#myTextBox{
-    float: center;
-    
-}
-
